@@ -3,7 +3,7 @@
 This is a repository of implementation examples for the dimensionality reduction methods discussed in Dimensionality Reduction Techniques for Statistical Inference in Cosmology (arXiv:2409.02102)
 
 # Contents
-(All data vectors provided in this repository for demonstration purposes are weak lensing second moment data vectors)
+(All data vectors provided in this repository for demonstration purposes are weak lensing second moment data vectors generated from N-body simulations)
 - MOPED.npz contains simulated data vectors required to compute fiducial covariance matrices and parameter derivatives.
 - samples.npz contains parameter samples ($S_8, \Omega_m, w_0, \eta_{\rm IA}, A_{\rm IA}, \Omega_b, n_s, h$, shear callibration, and redshift callibration; 16 parameters total) and corresponding simulated data vectors.
 - notebook.ipnyb contains commented examples of implementations of PCA, PCA-f, MOPED, e-MOPED, CCA, and NN-MSE with Optuna hyperparameter tuning as discussed in arXiv:2409.02102.
